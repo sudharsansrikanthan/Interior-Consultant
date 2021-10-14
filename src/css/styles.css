@@ -1,0 +1,84 @@
+body {
+    margin: 0px;
+    margin-top: 42px;
+    background: #181719;
+    color: #FFFFFF;
+}
+
+.title-text {
+    font-size: 14px;
+    margin-left: 77px;
+    margin-right: 648px;
+    padding: 8px;
+    border: 1px solid #FFFFFF;
+    width: fit-content;
+    font-family: 'Crimson Pro', serif;
+}
+
+.nav-bar {
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+.home, .collection, .about, .contact {
+    margin-right: 86px;
+}
+
+.home:hover, .collection:hover, .about:hover, .contact:hover {
+    border-bottom: 2px solid #FFFFFF;
+    padding-bottom: 8px;
+}
+
+.description-container {
+    margin-top: 300px;
+    margin-left: 77px;
+    margin-right: 1000px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 45px;
+}
+
+.description-title {
+    font-family: 'Lora', serif;
+    font-size: 48px;
+}
+
+.description-text {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400px;
+    font-size: 24px;
+}
+
+.read-more {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+.image-room {
+    width: 735px;
+    height: 560px;
+    float: right;
+    margin-top: -460px;
+}
+
+@media (max-width:1500px) {
+    .title-text {
+        margin-right: 200px;
+    }
+}
+
+@media (max-width:1000px) {
+    .title-text {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+    .home, .collection, .about, .contact {
+        margin-right: 10px;
+    }
+}
+
+/* @media (max-width:550px) {
+
+} */
