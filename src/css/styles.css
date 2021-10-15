@@ -57,10 +57,39 @@ body {
 }
 
 .image-room {
-    width: 735px;
-    height: 560px;
+    width: 820px;
+    height: 586px;
     float: right;
     margin-top: -460px;
+    margin-right: 40px;
+    margin-bottom: 500px; /* take out */
+}
+
+.postcard {
+    background: #181719;
+    height: 189px;
+    width: 410px;
+    margin-right: -750px;
+    margin-top: 40px;
+    float: right;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+.image-person {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: left;
+
 }
 
 @media (max-width:1500px) {
