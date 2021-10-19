@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    background: #181719;
+    color: #FFFFFF;
+}
+
+#close-icon {
+    float: right;
+    margin-top: -175px;
+    margin-right: 20px;
+    color: #F2F2F2;
+    font-size: 50px;
+}
+
+.nav-bar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    margin-top: 215px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.home:hover, .collection:hover, .about:hover, .contact:hover {
+    border-bottom: 5px solid #FFFFFF;
+    padding-bottom: 8px;
+}
